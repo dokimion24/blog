@@ -1,5 +1,12 @@
-import Image from 'next/image'
+import PostList from '@/components/Posts/PostList'
+import Profile from '@/components/Profile/Profile'
 
-export default function Home() {
-  return <section className="bg-gray-50">Main</section>
+export default function HomePage() {
+  return (
+    <>
+      <Profile />
+      {/* @ts-expect-error Server Component */}
+      <PostList />
+    </>
+  )
 }
