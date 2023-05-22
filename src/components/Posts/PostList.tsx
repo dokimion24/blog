@@ -6,7 +6,7 @@ export default async function PostList() {
 
   return (
     <section>
-      <h2 className="text-2xl font-bold">Posts</h2>
+      <h2 className="text-2xl font-bold my-2">Posts</h2>
       {/* @ts-expect-error Server Component */}
       <PostItem posts={posts} />
     </section>
