@@ -1,5 +1,5 @@
-import CarouselPost from '@/components/Carousel/CarouselPost'
-import PostList from '@/components/Posts/FeaturedPosts'
+import CarouselPosts from '@/components/Carousel/CarouselPosts'
+import FeaturedPosts from '@/components/Posts/FeaturedPosts'
 import Profile from '@/components/Profile/Profile'
 
 export default function HomePage() {
@@ -7,9 +7,9 @@ export default function HomePage() {
     <>
       <Profile />
       {/* @ts-expect-error Server Component */}
-      <PostList />
+      <FeaturedPosts />
       {/* @ts-expect-error Server Component */}
-      <CarouselPost />
+      <CarouselPosts />
     </>
   )
 }

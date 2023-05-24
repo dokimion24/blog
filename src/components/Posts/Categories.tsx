@@ -1,4 +1,4 @@
-type Props = {
+interface Props {
   categories: string[]
   selected: string
   onClick: (category: string) => void
