@@ -7,11 +7,11 @@ React components implement a `render()` method that takes input data and returns
 ```jsx
 class HelloMessage extends React.Component {
   render() {
-    return <div>Hello {this.props.name}</div>;
+    return <div>Hello {this.props.name}</div>
   }
 }
 
-root.render(<HelloMessage name='Taylor' />);
+root.render(<HelloMessage name="Taylor" />)
 ```
 
 ## Declarative
@@ -37,8 +37,6 @@ Since component logic is written in JavaScript instead of templates, you can eas
 We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.
 
 React can also render on the server using Node and power mobile apps using React Native.
-
-![React Office desk](https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)
 
 > The most important addition in React 18 is something we hope you never have to think about: concurrency. We think this is largely true for application developers, though the story may be a bit more complicated for library maintainers.
 
